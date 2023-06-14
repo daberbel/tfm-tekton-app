@@ -1,5 +1,5 @@
 const express = require("express");
-
+// iniciar express
 const app = express();
 
 app.get("/", (req, res) => {
