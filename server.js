@@ -13,6 +13,7 @@ app.get("/add/:number/:additor", (req, res) => {
   res.send({ result }).status(200);
 });
 
+// ruta restar
 app.get("/substract/:number/:substractor", (req, res) => {
   const result = parseInt(req.params.number, 10) - parseInt(req.params.substractor, 10);
   res.send({ result }).status(200);
