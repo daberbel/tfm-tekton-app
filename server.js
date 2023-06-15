@@ -2,6 +2,7 @@ const express = require("express");
 // iniciar express
 const app = express();
 
+// ruta principal
 app.get("/", (req, res) => {
   res.send({ message: "Hello", change: "UNIR" }).status(200);
 });
