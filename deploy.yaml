@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: tekton-pod
-        image: <YOUR_USERNAME>/tekton-lab-app
+        image: daberbel/tfm-image-app
         ports:
         - containerPort: 3000
 ---
